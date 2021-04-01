@@ -1,0 +1,4 @@
+# Swag Labs Selenium Tests
+
+## Overview
+Automated NUnit tests written using Selenium in C#.  The project will test log in, checkout form, and shopping cart functionality.  The testing will be done using NUnit with NUnit Console Runner to automatically generate an XML report of the tests and ReportUnit to convert the XML report to HTML.
