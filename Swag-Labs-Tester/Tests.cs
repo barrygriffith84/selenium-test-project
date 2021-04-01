@@ -85,6 +85,9 @@ namespace Swag_Labs_Tester
 
             Thread.Sleep(4000);
 
+            Actions.TakeScreenShot("EmptyFirstName");
+
+
             Assert.AreEqual(Config.ErrorMessages.BlankFirstName, checkout1.FormErrorMessage.Text);
         }
 
@@ -100,6 +103,8 @@ namespace Swag_Labs_Tester
             checkout1.ZipInput.Clear();
             checkout1.ZipInput.SendKeys("12345");
             checkout1.ContinueBtn.Click();
+
+            Actions.TakeScreenShot("EmptyLastName");
 
             Thread.Sleep(4000);
 
@@ -120,6 +125,9 @@ namespace Swag_Labs_Tester
 
             checkout1.ContinueBtn.Click();
 
+            Actions.TakeScreenShot("EmptyPostalCode");
+
+
             Thread.Sleep(4000);
 
             Assert.AreEqual(Config.ErrorMessages.BlankPostalCode, checkout1.FormErrorMessage.Text);
@@ -134,6 +142,10 @@ namespace Swag_Labs_Tester
             products.ShoppingCartLink.Click();
             cart.CheckoutBtn.Click();
             Actions.FillOutStepOneAndSubmit("John", "Doe", "55555");
+
+            Actions.TakeScreenShot("ShoppingCartTotal");
+
+
             Thread.Sleep(4000);
 
             //Checks the item total, tax, and total
