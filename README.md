@@ -23,8 +23,8 @@ Coming soon
 <img src="https://user-images.githubusercontent.com/62182071/113372354-7ecfd980-9336-11eb-8099-c85eac310be9.png">
 2. Enter **./nunit3-console.exe "path to the project"**.  The project will be in \Swag-Labs-Tester\Swag-Labs-Tester\bin\Debug.  This will run the tests and generate an XML file of the results.
 <img src="https://user-images.githubusercontent.com/62182071/113373538-0c142d80-9339-11eb-8464-89e4e2bf2d71.png">
-3. After the test have completed change directories in powershell to the ReportUnit/tools directory
-<img src="https://user-images.githubusercontent.com/62182071/113374252-ade84a00-933a-11eb-886f-12c34128eaef.png">
+3. After the test have completed change directories in powershell to the **ReportUnit\tools** directory
+<img src="https://user-images.githubusercontent.com/62182071/113374439-27803800-933b-11eb-9177-b0913298612b.png">
 4. In powershell enter **reportunit.exe "Path to the NUnit.ConsoleRunner/tools directory"**
 <img src="https://user-images.githubusercontent.com/62182071/113374298-d53f1700-933a-11eb-867a-54ca4b00de08.png">
 5. An HTML file will be generated from the XML file called TestReport.
