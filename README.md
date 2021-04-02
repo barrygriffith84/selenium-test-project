@@ -28,6 +28,6 @@ Coming soon
 4. In powershell enter **reportunit.exe "Path to the NUnit.ConsoleRunner/tools directory"**
 <img src="https://user-images.githubusercontent.com/62182071/113373894-dd4a8700-9339-11eb-92b4-76fbdcb7e977.png">
 5. An HTML file will be generated from the XML file called TestReport.
-<img src="https://user-images.githubusercontent.com/62182071/113373979-066b1780-933a-11eb-8b53-dfacf3b13c61.png">
+<img src="https://user-images.githubusercontent.com/62182071/113374129-5ea21980-933a-11eb-8527-b47a670197a3.png">
 
 ### Screenshots of each console command and test results.  Also post screenshots of the reports.
