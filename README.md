@@ -7,7 +7,16 @@ Automated NUnit tests written using Selenium in C#.  The project will test log i
 Coming soon
 
 ## Installation Instructions
-
+1.  Clone down the repository
+2.  In Nuget Package Manager install the following: 
+    >Selenium.WebDriver.ChromeDriver
+    >NUnit
+    >NUnit.ConsoleRunner
+    >NUnit3TestAdapter
+    >Selenium.Support
+    >Selenium.Webdriver
+    >DotNetSeleniumExtras.PageObjects
+    
 ## Walkthrough
 
 ### Screenshots of each console command and test results.  Also post screenshots of the reports.
