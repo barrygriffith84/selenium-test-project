@@ -20,8 +20,16 @@ Coming soon
 ## Walkthrough
 ### Run the test through Console Runner
 1. In file explorer navigate to \Swag-Labs-Tester\packages\NUnit.ConsoleRunner.3.12.0\tools then click File and open Powershell with administration privileges.
-
 <img src="https://user-images.githubusercontent.com/62182071/113372354-7ecfd980-9336-11eb-8099-c85eac310be9.png">
+2. Enter **nunit3-console.exe "<path to the project>"**.  This will run the tests and generate an XML file of the results.
+
+3. After the test have completed change directories in powershell to the ReportUnit directory
+
+4. In powershell enter **reportunit.exe "<Path to the NUnit.ConsoleRunner directory>"**
+
+5. An HTML file will be generated from the XML file called TestReport.
+
+
 
 
 ### Screenshots of each console command and test results.  Also post screenshots of the reports.
