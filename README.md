@@ -9,13 +9,13 @@ Coming soon
 ## Installation Instructions
 1.  Clone down the repository
 2.  In Nuget Package Manager install the following: 
-    >Selenium.WebDriver.ChromeDriver
-    >NUnit
-    >NUnit.ConsoleRunner
-    >NUnit3TestAdapter
-    >Selenium.Support
-    >Selenium.Webdriver
-    >DotNetSeleniumExtras.PageObjects
+    - Selenium.WebDriver.ChromeDriver
+    - NUnit
+    - NUnit.ConsoleRunner
+    - NUnit3TestAdapter
+    - Selenium.Support
+    - Selenium.Webdriver
+    - DotNetSeleniumExtras.PageObjects
     
 ## Walkthrough
 
