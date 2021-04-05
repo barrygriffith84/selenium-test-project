@@ -5,8 +5,8 @@ Automated NUnit tests written using Selenium in C#.  The project will test log i
 
 ## Video Walkthrough
  <iframe width="420" height="315"
-src="https://youtu.be/ecd51xMxg9Y">
-</iframe> 
+src="https://youtu.be/ecd51xMxg9Y"/>
+
 
 ## Installation Instructions
 1.  Clone down the repository
